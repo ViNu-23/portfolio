@@ -1,5 +1,7 @@
 import SocialLinks from './SocialLinks';
 import Menu from './Menu';
+import Experience from './Experience';
+import CaseStudies from './CaseStudies';
 
 export default function Home() {
   return (
@@ -9,8 +11,8 @@ export default function Home() {
         style={{
           display: 'flex',
           padding: '25px',
-          alignItems: 'center',
-          marginTop:'10vh'
+          height:'60vh',
+          marginTop:'100px'
         }}
       >
         <div
@@ -25,12 +27,14 @@ export default function Home() {
               color: '#7B2095',
               fontSize: '40px',
               fontFamily: 'Roboto, sans-serif',
-              width:'100%'
+              width:'100%',
+              letterSpacing:'2px'
+
             }}
           >
             UI/UX Designer
           </div>
-          <div style={{ margin: '24px 0px' }}>
+          <div style={{ margin: '30px 0px' }}>
             Started my career in 2009 as a 3D Artist/Graphic Designer and changed career
             direction to UI UX Design in 2015. Provided design solutions for different
             types of projects and successfully delivered Web & Mobile Applications, Corporate
@@ -41,11 +45,11 @@ export default function Home() {
               padding: '12px 20px',
               borderRadius: '6px',
               background: '#fff',
-              border: '1px solid RGBA(0, 0, 0, 0.28)',
+              border: '1px solid #7B2095',
               boxShadow: 'rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px',
-              fontFamily: 'Roboto, sans-serif',
-              color: 'RGBA(0, 0, 0, 0.28)',
-              fontSize: '12px',
+              color: '#7B2095',
+              fontSize: '14px',
+              fontWeight:'bolder'
             }}
           >
             View My Portfolio
@@ -54,6 +58,20 @@ export default function Home() {
         <div>image</div>
       </div>
       <div
+      style={{
+        height:'100vh'
+      }}
+      >
+        <Experience/>
+      </div>
+      <div
+      style={{
+        height:'100vh'
+      }}
+      >
+        <CaseStudies/>
+      </div>
+      {/* <div
         style={{
           position: 'fixed',
           bottom: 0,
@@ -61,7 +79,7 @@ export default function Home() {
         }}
       >
         <Menu />
-      </div>
+      </div> */}
     </>
   );
 }
