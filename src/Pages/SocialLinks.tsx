@@ -7,6 +7,9 @@ export default function SocialLinks() {
         height: '23px',
         width: '23px',
     }
+    const links = {
+        cursor:'pointer',
+    }
     return (
         <div style={{
             display: 'flex',
@@ -17,17 +20,17 @@ export default function SocialLinks() {
             <div>logo</div>
             <div>
                 <ul style={{
-                    padding:'18px 18px 8px 18px',
+                    padding: '18px 18px 8px 18px',
                     listStyle: 'none',
                     display: 'flex',
                     alignItems: 'center',
                     justifyContent: 'space-between',
                     width: '230px'
                 }}>
-                    <li><FaDribbble style={socialIcons} /></li>
-                    <li><FaInstagram style={socialIcons} /></li>
-                    <li><FiLinkedin style={socialIcons} /></li>
-                    <li><FiFacebook style={socialIcons} /></li>
+                    <li style={links}><FaDribbble style={socialIcons} /></li>
+                    <li style={links}><FaInstagram style={socialIcons} /></li>
+                    <li style={links}><FiLinkedin style={socialIcons} /></li>
+                    <li style={links}><FiFacebook style={socialIcons} /></li>
                 </ul>
             </div>
         </div>

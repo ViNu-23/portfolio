@@ -7,7 +7,7 @@ export default function Home() {
       <SocialLinks />
       <div style={{
         display: 'flex',
-        padding: '20px',
+        padding: '25px',
         height: '70vh',
         alignItems: 'center'
       }}>
@@ -28,7 +28,7 @@ export default function Home() {
             Provided design solutions for diffrent type of projects and successfully delivered
             Web & Mobile Applications, Corporate Websites and Brand Identity</div>
           <button style={{
-            padding: '8px 16px',
+            padding: '12px 10px',
             borderRadius: '6px',
             background: '#fff',
             border: '1px solid RGBA(0, 0, 0, 0.28)',
