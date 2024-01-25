@@ -106,7 +106,7 @@ export default function Project() {
                         <div>Led the entire design process, worked with Founder and Product Head, was partially involved in user research. Created Wireframes, Prototype, Design System, and High-fidelity Designs for Web, Responsive, and Mobile App. Provided PRD's to development team, helped testing team to find bugs.</div>
                     </p>
                 </div>
-                <div><img src="./src/Images/Picture8.PNG" alt='project' className='project-img'/></div>
+                <div><img src="../src/Images/Picture8.png" alt='project' className='project-img'/></div>
             </div>
         </>
     );
