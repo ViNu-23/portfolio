@@ -1,4 +1,5 @@
 import Menu from "./Menu";
+import { FaAward } from "react-icons/fa6";
 
 export default function Experience() {
   const experiences = [
@@ -49,9 +50,12 @@ export default function Experience() {
           <br />
           {experience.duration}
           {experience.awards && (
-            <div>
-              Awards: {experience.awards.map((award, i) => <span key={i}>{award} </span>)}
-            </div>
+           <div style={{ display: 'flex', alignItems: 'center' }}>
+           <FaAward style={{ color: '#5a39a4',height:'20px',width:'20px',marginRight:'5px' }} />
+           {experience.awards.map((award, i) => (
+             <span key={i}>{award} </span>
+           ))}
+         </div>
           )}
         </div>
       ))}
