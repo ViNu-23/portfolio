@@ -1,8 +1,5 @@
 import SocialLinks from './SocialLinks';
 import Menu from './Menu';
-import Experience from './Experience';
-import CaseStudies from './CaseStudies';
-import Project from './Project';
 
 export default function Home() {
   return (
