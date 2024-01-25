@@ -58,27 +58,7 @@ export default function Home() {
         </div>
         <div className='profile-container'><img src='./src/Images/Picture2.png' alt='profile-img' style={{ height: '555px' }} className='profile-img' /></div>
       </div>
-      <div id='experience'
-        style={{
-          padding: '25px',
-          marginBottom: '50px'
-        }}
-      >
-        <Experience />
-      </div>
-      <div id='project'
-        style={{
-        }}
-      >
-        <Project />
-      </div >
-      <div id='case-studies'
-        style={{
-          height: '100vh',
-        }}
-      >
-        <CaseStudies />
-      </div>
+      
       <div
         style={{
           position: 'fixed',
