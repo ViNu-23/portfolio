@@ -118,7 +118,6 @@ export default function Project() {
                     <div className='project-no'>Project 06</div>
                     <div className='project-name'>Firaa</div>
                     <div className='project-dec'>Travel Blogging Platform</div>
-
                     <p>
                         Firaa is a Travel Blogging app where the traveller can share their
                         experiences, offline too and create a memorable trip with pictures
