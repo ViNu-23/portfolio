@@ -1,6 +1,5 @@
 import SocialLinks from './SocialLinks';
 import Menu from './Menu';
-
 export default function Home() {
   return (
     <>

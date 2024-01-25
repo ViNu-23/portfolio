@@ -2,7 +2,7 @@ import Menu from './Menu';
 import './style.css';
 export default function Project() {
     return (
-        <>
+        <div style={{margin:'50px 0px 50px 50px'}}>
             <h2 className='title' style={{ paddingLeft: '25px' }}>Projects</h2>
             <div className='project-container'>
                 <div className='project-info'>
@@ -140,6 +140,6 @@ export default function Project() {
    >
      <Menu />
    </div>
-        </>
+        </div>
     );
 }

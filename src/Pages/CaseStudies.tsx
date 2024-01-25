@@ -8,7 +8,7 @@ export default function CaseStudies() {
   return (
     <>
     <div>
-       <h2 className='title' style={{ paddingLeft: '25px' }}>Case Studies</h2>
+       <h2 className='title' style={{ padding: '25px 0px 25px 25px' }}>Case Studies</h2>
       <div><img style={caseStudy} src="../Images/Picture9.jpg" alt='project' className='project-img' /></div>
       <div><img style={caseStudy}  src="../Images/Picture10.png" alt='project' className='project-img' /></div>
       <div><img style={caseStudy} src="../Images/Picture11.jpg" alt='project' className='project-img' /></div>

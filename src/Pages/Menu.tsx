@@ -3,13 +3,15 @@ import { IoBriefcaseOutline } from 'react-icons/io5';
 import { LuPencilRuler } from 'react-icons/lu';
 import { PiListMagnifyingGlass } from 'react-icons/pi';
 import { Link } from "react-router-dom";
+import './style.css'
 
 export default function Menu() {
   const list = {
     padding: '22px 30px',
     fontSize: '18px',
     display: 'flex',
-    alignItems: 'center', // Center vertically
+    alignItems: 'center', 
+    color:'#000',
   };
 
   const icons = {
@@ -28,26 +30,26 @@ export default function Menu() {
           textAlign: 'center',
         }}
       >
-         <Link to="/">
+         <Link to="/" style={{textDecoration:'none'}}>
          <li style={list}>
           <FiUser style={icons} />
           The Profile
         </li>
       </Link>
        
-      <Link to="/Experience">
+      <Link to="/Experience" style={{textDecoration:'none'}}>
       <li style={list}>
           <IoBriefcaseOutline style={icons} />
           The Experience
         </li>
       </Link>
-      <Link to="/Project">
+      <Link to="/Project" style={{textDecoration:'none'}}>
       <li style={list}>
           <LuPencilRuler style={icons} />
           The Projects
         </li>
       </Link>
-      <Link to="/CaseStudies">
+      <Link to="/CaseStudies" style={{textDecoration:'none'}}>
       <li style={list}>
           <PiListMagnifyingGlass style={icons} />
           Case studies
