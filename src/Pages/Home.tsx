@@ -15,7 +15,7 @@ export default function Home() {
       >
         <div
           style={{
-            marginTop: '110px',
+            margin: '110px 0px',
             width: '100%'
           }}
         >

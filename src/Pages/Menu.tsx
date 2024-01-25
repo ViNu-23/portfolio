@@ -6,14 +6,7 @@ import { Link } from "react-router-dom";
 import './style.css'
 
 export default function Menu() {
-  const list = {
-    padding: '22px 30px',
-    fontSize: '18px',
-    display: 'flex',
-    alignItems: 'center', 
-    color:'#000',
-  };
-
+ 
   const icons = {
     margin: '0px 8px',
     height: '22px',
@@ -26,41 +19,37 @@ export default function Menu() {
         style={{
           listStyle: 'none',
           display: 'flex',
-          justifyContent: 'space-around',
+          justifyContent: 'space-between',
           textAlign: 'center',
         }}
       >
          <Link to="/" style={{textDecoration:'none'}}>
-         <li style={list}>
+         <li className='list'> 
           <FiUser style={icons} />
           The Profile
         </li>
       </Link>
        
       <Link to="/Experience" style={{textDecoration:'none'}}>
-      <li style={list}>
+      <li  className='list' >
           <IoBriefcaseOutline style={icons} />
           The Experience
         </li>
       </Link>
+
       <Link to="/Project" style={{textDecoration:'none'}}>
-      <li style={list}>
+      <li  className='list'>
           <LuPencilRuler style={icons} />
           The Projects
         </li>
       </Link>
+
       <Link to="/CaseStudies" style={{textDecoration:'none'}}>
-      <li style={list}>
+      <li  className='list'>
           <PiListMagnifyingGlass style={icons} />
           Case studies
         </li>
       </Link>
-
-
-
-        
-       
-        
       </ul>
     </div>
   );

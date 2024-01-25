@@ -94,3 +94,15 @@ border: 2px solid #fff;
     color: #fff;
   }
 }
+
+.list{
+padding: 22px 30px;
+font-size: 18px;
+display: flex;
+align-items: center;
+color: #000;
+}
+.list:hover{
+  background-color:#5a39a4;
+  color: #fff;
+}
