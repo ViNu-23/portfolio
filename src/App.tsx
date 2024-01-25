@@ -1,18 +1,19 @@
 import Experience from "./Pages/Experience";
 import Home from "./Pages/Home";
-import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import Project from "./Pages/Project";
 import CaseStudies from "./Pages/CaseStudies";
+import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 
 export default function App() {
   return (
     <Router>
-    <Routes>
-      <Route exact path="/" element={<Home />} />
-      <Route exact path="/Experience" element={<Experience />} />
-      <Route exact path="/Project" element={<Project />} />
-      <Route exact path="/CaseStudies" element={<CaseStudies />} />
-    </Routes>
-  </Router>
-  )
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/Experience" element={<Experience />} />
+        <Route path="/Project" element={<Project />} />
+        <Route path="/CaseStudies" element={<CaseStudies />} />
+      </Routes>
+    </Router>
+  );
 }
+
