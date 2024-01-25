@@ -2,6 +2,7 @@ import { FiUser } from 'react-icons/fi';
 import { IoBriefcaseOutline } from 'react-icons/io5';
 import { LuPencilRuler } from 'react-icons/lu';
 import { PiListMagnifyingGlass } from 'react-icons/pi';
+import { Link } from "react-router-dom";
 
 export default function Menu() {
   const list = {
@@ -27,22 +28,37 @@ export default function Menu() {
           textAlign: 'center',
         }}
       >
-        <li style={list}>
+         <Link to="/">
+         <li style={list}>
           <FiUser style={icons} />
           The Profile
         </li>
-        <li style={list}>
+      </Link>
+       
+      <Link to="/Experience">
+      <li style={list}>
           <IoBriefcaseOutline style={icons} />
           The Experience
         </li>
-        <li style={list}>
+      </Link>
+      <Link to="/Project">
+      <li style={list}>
           <LuPencilRuler style={icons} />
           The Projects
         </li>
-        <li style={list}>
+      </Link>
+      <Link to="/CaseStudies">
+      <li style={list}>
           <PiListMagnifyingGlass style={icons} />
           Case studies
         </li>
+      </Link>
+
+
+
+        
+       
+        
       </ul>
     </div>
   );

@@ -1,3 +1,5 @@
+import Menu from "./Menu";
+
 export default function Experience() {
   const experiences = [
     {
@@ -53,6 +55,15 @@ export default function Experience() {
         </div>
       ))}
     </div>
+    <div
+     style={{
+       position: 'fixed',
+       bottom: 0,
+       width: '100%',
+     }}
+   >
+     <Menu />
+   </div>
   </div>
   );
 }

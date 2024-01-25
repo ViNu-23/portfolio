@@ -57,14 +57,14 @@ export default function Home() {
       </div>
       
       <div
-        style={{
-          position: 'fixed',
-          bottom: 0,
-          width: '100%',
-        }}
-      >
-        <Menu />
-      </div>
+     style={{
+       position: 'fixed',
+       bottom: 0,
+       width: '100%',
+     }}
+   >
+     <Menu />
+   </div>
     </>
   );
 }
