@@ -56,7 +56,7 @@ export default function Home() {
             View My Portfolio
           </button>
         </div>
-        <div><img src='src/Images/Picture2.png' alt='profile-img' style={{ height: '555px' }} /></div>
+        <div><img src='./src/Pages/Images/Picture2.png' alt='profile-img' style={{ height: '555px' }} /></div>
       </div>
       <div id='experience'
         style={{
