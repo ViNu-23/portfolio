@@ -19,8 +19,8 @@ export default function Home() {
       >
         <div
           style={{
-            width: '65%',
             marginTop: '110px',
+            width: '100%'
           }}
         >
           <div style={{ fontWeight: 'bold' }}>Hi, I am Sourabh D. Kulkarni</div>
@@ -35,7 +35,7 @@ export default function Home() {
           >
             UI/UX Designer
           </div>
-          <div style={{ margin: '30px 0px' }}>
+          <div style={{ margin: '30px 0px', width: '100%' }}>
             Started my career in 2009 as a 3D Artist/Graphic Designer and changed career
             direction to UI UX Design in 2015. Provided design solutions for different
             types of projects and successfully delivered Web & Mobile Applications, Corporate
@@ -56,12 +56,12 @@ export default function Home() {
             View My Portfolio
           </button>
         </div>
-        <div><img src='./src/Images/Picture2.png' alt='profile-img' style={{ height: '555px' }} /></div>
+        <div className='profile-container'><img src='./src/Images/Picture2.png' alt='profile-img' style={{ height: '555px' }} className='profile-img' /></div>
       </div>
       <div id='experience'
         style={{
           padding: '25px',
-          marginBottom:'50px'
+          marginBottom: '50px'
         }}
       >
         <Experience />

@@ -2,6 +2,7 @@ export default function CaseStudies() {
   const caseStudy={
     width:'100%'
   }
+ 
   return (
     <div>
        <h2 className='title' style={{ paddingLeft: '25px' }}>Case Studies</h2>

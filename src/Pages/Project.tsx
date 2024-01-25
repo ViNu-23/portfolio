@@ -3,7 +3,7 @@ export default function Project() {
     return (
         <>
             <h2 className='title' style={{ paddingLeft: '25px' }}>Projects</h2>
-            <div className='project-container' style={{ width: '100%' }}>
+            <div className='project-container'>
                 <div className='project-info'>
                     <div className='project-no'>Project 01</div>
                     <div className='project-name'>CXOSpace</div>
@@ -17,7 +17,7 @@ export default function Project() {
                         <div>Led the entire design process, worked with Founder and Product Head, was partially involved in user research. Created Wireframes, Prototype, Design System, and High-fidelity Designs for Web, Responsive, and Mobile App. Provided PRD's to development team, helped testing team to find bugs.</div>
                     </p>
                 </div>
-                <div><img src="./src/Images/Picture3.png" alt='project' className='project-img' /></div>
+                <div ><img src="./src/Images/Picture3.png" alt='project' className='project-img' /></div>
             </div>
 
             <div className='project-container' style={{ width: '100%' }}>
