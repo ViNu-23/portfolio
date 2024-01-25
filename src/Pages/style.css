@@ -6,12 +6,15 @@
 .project-container {
   display: flex;
   margin-bottom: 100px;
+  justify-content: flex-end;
 }
 .project-img {
-  width: 600px;
+  max-width: 100%;
 }
 .project-info {
   padding: 25px;
+  margin-top: 20px;
+  flex-basis: 65%;
 }
 .project-no {
   color: #5a39a4;
@@ -40,14 +43,57 @@
 @media screen and (max-width: 768px) {
 .project-container {
     flex-direction: column-reverse;
+    align-items: end;
 }
 .project-info{
     flex-grow: 100%;
 }
-.project-img{
-    width: 400px;
-}
+
 .profile-container{
     display: none;
 }
+}
+.icons:hover{
+  color:#5a39a4;
+  transform: scale(1.2);
+}
+
+.icons{
+  color: RGBA(0, 0, 0, 0.16);
+  height: 23px;
+  width: 23px;
+  transition: color 0.3s ease;
+}
+@media screen and (max-width: 850px) {
+/* .menu-item{
+  display: none;
+} */
+}
+.cv-button{
+  transition: color 0.3s ease;
+  padding: 12px 20px;
+  border-radius: 6px;
+  background: #fff;
+  border: 1px solid #7B2095;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.19), 0px 6px 6px rgba(0, 0, 0, 0.23);
+  
+  font-size: 14px;
+  font-weight: bolder;
+  cursor: pointer;
+  transition: color 0.3s ease-in;
+
+}
+.cv-button:hover{
+background: #5a39a4;
+
+border: 2px solid #fff;
+}
+.anchor{
+  text-decoration: none;
+  color: #7B2095;
+}
+.cv-button:hover{
+  .anchor{
+    color: #fff;
+  }
 }

@@ -2,11 +2,7 @@ import { FaDribbble, FaInstagram } from "react-icons/fa";
 import { FiLinkedin, FiFacebook } from "react-icons/fi";
 
 export default function SocialLinks() {
-    const socialIcons = {
-        color: 'RGBA(0, 0, 0, 0.16)',
-        height: '23px',
-        width: '23px',
-    }
+   
     const links = {
         cursor:'pointer',
     }
@@ -27,10 +23,10 @@ export default function SocialLinks() {
                     justifyContent: 'space-between',
                     width: '230px'
                 }}>
-                    <li style={links}><FaDribbble style={socialIcons} /></li>
-                    <li style={links}><FaInstagram style={socialIcons} /></li>
-                    <li style={links}><FiLinkedin style={socialIcons} /></li>
-                    <li style={links}><FiFacebook style={socialIcons} /></li>
+                    <li style={links} className="social-icons"><a href="https://dribbble.com/Sourabhkulkarni37"><FaDribbble  className="icons"/></a></li>
+                    <li style={links} className="social-icons"><a href="https://www.instagram.com/sdkuidesigner/"><FaInstagram   className="icons"/></a></li>
+                    <li style={links} className="social-icons"><a href="https://www.linkedin.com/in/sourabh-kulkarni-5a115b4a/"><FiLinkedin className="icons"/></a></li>
+                    <li style={links} className="social-icons"><a href="https://dribbble.com/Sourabhkulkarni37"><FiFacebook   className="icons"/></a></li>
                 </ul>
             </div>
         </div>

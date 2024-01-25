@@ -21,7 +21,7 @@ export default function Menu() {
   };
 
   return (
-    <div style={{ opacity: '100%', background: '#F5F7F8' }}>
+    <div style={{ opacity: '100%', background: '#F5F7F8' }} className='menu-item'>
       <ul
         style={{
           listStyle: 'none',

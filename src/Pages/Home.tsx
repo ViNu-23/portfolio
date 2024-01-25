@@ -37,33 +37,24 @@ export default function Home() {
             types of projects and successfully delivered Web & Mobile Applications, Corporate
             Websites, and Brand Identity.
           </div>
-          <button
-            style={{
-              padding: '12px 20px',
-              borderRadius: '6px',
-              background: '#fff',
-              border: '1px solid #7B2095',
-              boxShadow: 'rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px',
-              color: '#7B2095',
-              fontSize: '14px',
-              fontWeight: 'bolder'
-            }}
-          >
+          <button className='cv-button'>
+          <a className='anchor' href='../Images/portfolio.pdf' download='Sourabh D.Kulkarni.pdf'>
             Download My Portfolio
+            </a>
           </button>
         </div>
         <div className='profile-container'><img src='../Images/Picture2.png' alt='profile-img' style={{ height: '555px' }} className='profile-img' /></div>
       </div>
-      
+
       <div
-     style={{
-       position: 'fixed',
-       bottom: 0,
-       width: '100%',
-     }}
-   >
-     <Menu />
-   </div>
+        style={{
+          position: 'fixed',
+          bottom: 0,
+          width: '100%',
+        }}
+      >
+        <Menu />
+      </div>
     </>
   );
 }

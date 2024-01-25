@@ -2,8 +2,8 @@ import Menu from './Menu';
 import './style.css';
 export default function Project() {
     return (
-        <div style={{margin:'50px 0px 50px 50px'}}>
-            <h2 className='title' style={{ paddingLeft: '25px' }}>Projects</h2>
+        <div>
+            <h2 className='title' style={{ margin: '25px 0px 25px 25px' }}>Projects</h2>
             <div className='project-container'>
                 <div className='project-info'>
                     <div className='project-no'>Project 01</div>
@@ -18,7 +18,7 @@ export default function Project() {
                         <div>Led the entire design process, worked with Founder and Product Head, was partially involved in user research. Created Wireframes, Prototype, Design System, and High-fidelity Designs for Web, Responsive, and Mobile App. Provided PRD's to development team, helped testing team to find bugs.</div>
                     </p>
                 </div>
-                <div ><img src="../Images/Picture3.png" alt='project' className='project-img' /></div>
+                <div style={{flexBasis:'70%'}}><img src="../Images/Picture3.png" alt='project' className='project-img' /></div>
             </div>
 
             <div className='project-container' style={{ width: '100%' }}>
@@ -44,7 +44,7 @@ export default function Project() {
                             Created Brand Identity and Marketing Collateral. </div>
                     </p>
                 </div>
-                <div><img src="../Images/Picture4.png" alt='project' className='project-img' /></div>
+                <div style={{flexBasis:'70%'}} ><img src="../Images/Picture4.png" alt='project' className='project-img' /></div>
             </div>
 
 
@@ -65,7 +65,7 @@ export default function Project() {
                             of gamification concepts for each lesson.</div>
                     </p>
                 </div>
-                <div><img src="../Images/Picture5.png" alt='project' className='project-img' /></div>
+                <div style={{flexBasis:'70%'}}><img src="../Images/Picture5.png" alt='project' className='project-img' /></div>
             </div>
 
 
@@ -91,7 +91,7 @@ export default function Project() {
                             Created Brand Identity and Marketing Collateral.</div>
                     </p>
                 </div>
-                <div><img src="../Images/Picture6.png" alt='project' className='project-img' /></div>
+                <div style={{flexBasis:'70%'}}><img src="../Images/Picture6.png" alt='project' className='project-img' /></div>
             </div>
 
 
@@ -110,7 +110,7 @@ export default function Project() {
                             High Fidelity Visual Designs.</div>
                     </p>
                 </div>
-                <div><img src="../Images/Picture7.png" alt='project' className='project-img' /></div>
+                <div style={{flexBasis:'70%'}}><img src="../Images/Picture7.png" alt='project' className='project-img' /></div>
             </div>
 
 
@@ -129,7 +129,7 @@ export default function Project() {
                         <div>Created Visual Design for Website and Android Application.</div>
                     </p>
                 </div>
-                <div><img src="../Images/Picture8.png" alt='project' className='project-img' /></div>
+                <div style={{flexBasis:'70%'}}><img src="../Images/Picture8.png" alt='project' className='project-img' /></div>
             </div>
             <div
      style={{

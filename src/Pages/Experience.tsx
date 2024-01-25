@@ -37,7 +37,8 @@ export default function Experience() {
   ];
 
   return (
-    <div style={{ position: 'relative' ,margin:'50px'}}>
+  <>
+    <div style={{ position: 'relative',padding:'25px'}}>
     <h2 className="title">Experience</h2>
     <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-around' }}>
       {experiences.map((experience, index) => (
@@ -55,15 +56,17 @@ export default function Experience() {
         </div>
       ))}
     </div>
-    <div
-     style={{
-       position: 'fixed',
-       bottom: 0,
-       width: '100%',
-     }}
-   >
-     <Menu />
-   </div>
+
   </div>
+      <div
+      style={{
+        position: 'fixed',
+        bottom: 0,
+        width: '100%',
+      }}
+    >
+      <Menu />
+    </div>
+    </>
   );
 }
