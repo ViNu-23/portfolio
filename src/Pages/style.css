@@ -1,0 +1,47 @@
+.title {
+  margin-bottom: 25px;
+  color: #5a39a4;
+  font-size: 30px;
+}
+.project-container {
+  display: flex;
+  margin-bottom: 200px;
+}
+.project-img {
+  width: 550px;
+}
+.project-info {
+  padding: 25px;
+}
+.project-no {
+  color: #5a39a4;
+  font-size: 18px;
+  font-weight: bolder;
+  margin-bottom: 10px;
+}
+.project-name{
+    font-size: 25px;
+    font-family: Roboto, sans-serif;
+    color: RGBA(0, 0, 0, 0.70);
+}
+.project-dec{
+    font-size: 28px;
+    color: RGBA(0, 0, 0, 0.30);
+}
+.role{
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: Roboto, sans-serif;
+    color: RGBA(0, 0, 0, 0.70);
+}
+@media screen and (max-width: 768px) {
+.project-container {
+    flex-direction: column-reverse;
+}
+.project-info{
+    flex-grow: 100%;
+}
+.project-img{
+    width: 400px;
+}
+}

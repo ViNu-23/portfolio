@@ -36,7 +36,7 @@ export default function Experience() {
 
   return (
     <div style={{ position: 'relative' }}>
-    <h2 style={{ marginBottom: '25px' }}>Experience</h2>
+    <h2 className="title">Experience</h2>
     <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-around' }}>
       {experiences.map((experience, index) => (
         <div key={index} style={{ flex: '0 0 48%', marginBottom: '40px', position: 'relative' }}>

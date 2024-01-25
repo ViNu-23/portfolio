@@ -2,6 +2,7 @@ import SocialLinks from './SocialLinks';
 import Menu from './Menu';
 import Experience from './Experience';
 import CaseStudies from './CaseStudies';
+import Project from './Project';
 
 export default function Home() {
   return (
@@ -10,26 +11,26 @@ export default function Home() {
       <div
         style={{
           display: 'flex',
-          padding: '25px',
-          height:'60vh',
-          marginTop:'100px'
+          padding: '25px 0px 25px 25px',
+          height: '60vh',
+          marginBottom: '150px',
+          justifyContent: 'space-between'
         }}
       >
         <div
           style={{
             width: '65%',
+            marginTop: '110px',
           }}
         >
-          {/* Content here */}
           <div style={{ fontWeight: 'bold' }}>Hi, I am Sourabh D. Kulkarni</div>
           <div
             style={{
               color: '#7B2095',
               fontSize: '40px',
               fontFamily: 'Roboto, sans-serif',
-              width:'100%',
-              letterSpacing:'2px'
-
+              width: '100%',
+              letterSpacing: '2px'
             }}
           >
             UI/UX Designer
@@ -49,28 +50,34 @@ export default function Home() {
               boxShadow: 'rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px',
               color: '#7B2095',
               fontSize: '14px',
-              fontWeight:'bolder'
+              fontWeight: 'bolder'
             }}
           >
             View My Portfolio
           </button>
         </div>
-        <div>image</div>
+        <div><img src='./src/Images/Picture2.png' alt='profile-img' style={{ height: '555px' }} /></div>
       </div>
-      <div  id='experience'
-      style={{
-        height:'80vh',
-       padding:'25px',
-      }}
+      <div id='experience'
+        style={{
+          padding: '25px',
+          marginBottom:'50px'
+        }}
       >
-        <Experience/>
+        <Experience />
       </div>
-      <div  id='case-studies'
-      style={{
-        height:'100vh'
-      }}
+      <div id='project'
+        style={{
+        }}
       >
-        <CaseStudies/>
+        <Project />
+      </div >
+      <div id='case-studies'
+        style={{
+          height: '100vh'
+        }}
+      >
+        <CaseStudies />
       </div>
       <div
         style={{
