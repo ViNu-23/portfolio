@@ -74,7 +74,7 @@ export default function Home() {
       </div >
       <div id='case-studies'
         style={{
-          height: '100vh'
+          height: '100vh',
         }}
       >
         <CaseStudies />
