@@ -20,7 +20,7 @@ export default function SocialLinks() {
             <div>logo</div>
             <div>
                 <ul style={{
-                    padding: '18px 18px 8px 18px',
+                    padding: '18px 18px 14px 18px',
                     listStyle: 'none',
                     display: 'flex',
                     alignItems: 'center',

@@ -57,21 +57,22 @@ export default function Home() {
         </div>
         <div>image</div>
       </div>
-      <div
+      <div  id='experience'
       style={{
-        height:'100vh'
+        height:'80vh',
+       padding:'25px',
       }}
       >
         <Experience/>
       </div>
-      <div
+      <div  id='case-studies'
       style={{
         height:'100vh'
       }}
       >
         <CaseStudies/>
       </div>
-      {/* <div
+      <div
         style={{
           position: 'fixed',
           bottom: 0,
@@ -79,7 +80,7 @@ export default function Home() {
         }}
       >
         <Menu />
-      </div> */}
+      </div>
     </>
   );
 }
