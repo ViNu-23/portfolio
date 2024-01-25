@@ -1,4 +1,3 @@
-import React from 'react';
 import { FiUser } from 'react-icons/fi';
 import { IoBriefcaseOutline } from 'react-icons/io5';
 import { LuPencilRuler } from 'react-icons/lu';
