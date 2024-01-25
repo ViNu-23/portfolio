@@ -13,10 +13,10 @@ export default function Project() {
                     <p>
                         Built a product for the CXO level community to exchange their knowledge, to hassle-free clarify their doubts and buy or know about required tools. The main key factors of this platform are Learn, Engage, Connect, and Buy.
                     </p>
-                    <p>
+                    <div>
                         <div className='role'>My Role:</div>
                         <div>Led the entire design process, worked with Founder and Product Head, was partially involved in user research. Created Wireframes, Prototype, Design System, and High-fidelity Designs for Web, Responsive, and Mobile App. Provided PRD's to development team, helped testing team to find bugs.</div>
-                    </p>
+                    </div>
                 </div>
                 <div style={{flexBasis:'70%'}}><img src="../Images/Picture3.png" alt='project' className='project-img' /></div>
             </div>
@@ -34,7 +34,7 @@ export default function Project() {
                         Designed modules for Agent, Manager & Admin.
 
                     </p>
-                    <p>
+                    <div>
                         <div className='role'>My Role:</div>
                         <div>Led the design process and helped the Founder to accomplish his
                             expectation and managed three designers.
@@ -42,7 +42,7 @@ export default function Project() {
                             Designs for Web and Mobile App.
                             Collaborated with tech team and aligned the design guidelines.
                             Created Brand Identity and Marketing Collateral. </div>
-                    </p>
+                    </div>
                 </div>
                 <div style={{flexBasis:'70%'}} ><img src="../Images/Picture4.png" alt='project' className='project-img' /></div>
             </div>
@@ -58,12 +58,12 @@ export default function Project() {
                         Talentify is a digital training platform, designed beautifully with a
                         gamification concept to improve users professional careers.
                     </p>
-                    <p>
+                    <div>
                         <div className='role'>My Role:</div>
                         <div>Redesigned existing products and delivered better visual solutions.
                             also helped to make better User Interactions, created different types
                             of gamification concepts for each lesson.</div>
-                    </p>
+                    </div>
                 </div>
                 <div style={{flexBasis:'70%'}}><img src="../Images/Picture5.png" alt='project' className='project-img' /></div>
             </div>
@@ -81,7 +81,7 @@ export default function Project() {
                         potentially best suited for the job requirements.
                         Designed modules for Recruiters and Job Seekers.
                     </p>
-                    <p>
+                    <div>
                         <div className='role'>My Role:</div>
                         <div>Responsible for Planning/Research, Wireframe, Information
                             Architecture, Interaction, Design System and High-fidelity Visual
@@ -89,7 +89,7 @@ export default function Project() {
                             Worked with CTO & Dev Team to ensure development is aligned as
                             per design.
                             Created Brand Identity and Marketing Collateral.</div>
-                    </p>
+                    </div>
                 </div>
                 <div style={{flexBasis:'70%'}}><img src="../Images/Picture6.png" alt='project' className='project-img' /></div>
             </div>
@@ -104,11 +104,11 @@ export default function Project() {
                     <p>
                         Built the product to complete recruitment solution to accelerate hiring process, it manages jobs, candidates, interviews.
                     </p>
-                    <p>
+                    <div>
                         <div className='role'>My Role:</div>
                         <div>Created Interaction, Design System and
                             High Fidelity Visual Designs.</div>
-                    </p>
+                    </div>
                 </div>
                 <div style={{flexBasis:'70%'}}><img src="../Images/Picture7.png" alt='project' className='project-img' /></div>
             </div>
@@ -124,10 +124,10 @@ export default function Project() {
                         experiences, offline too and create a memorable trip with pictures
                         and videos.
                     </p>
-                    <p>
+                    <div>
                         <div className='role'>My Role:</div>
                         <div>Created Visual Design for Website and Android Application.</div>
-                    </p>
+                    </div>
                 </div>
                 <div style={{flexBasis:'70%'}}><img src="../Images/Picture8.png" alt='project' className='project-img' /></div>
             </div>
