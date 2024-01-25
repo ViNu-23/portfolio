@@ -50,10 +50,10 @@ export default function Home() {
               fontWeight: 'bolder'
             }}
           >
-            View My Portfolio
+            Download My Portfolio
           </button>
         </div>
-        <div className='profile-container'><img src='./public/Images/Picture2.png' alt='profile-img' style={{ height: '555px' }} className='profile-img' /></div>
+        <div className='profile-container'><img src='../Images/Picture2.png' alt='profile-img' style={{ height: '555px' }} className='profile-img' /></div>
       </div>
       
       <div
