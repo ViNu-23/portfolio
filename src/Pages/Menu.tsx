@@ -17,6 +17,7 @@ export default function Menu() {
     <div style={{ opacity: '100%', background: '#F5F7F8' }} className='menu-item'>
       <ul
         style={{
+          width:'100%',
           listStyle: 'none',
           display: 'flex',
           justifyContent: 'space-between',
@@ -26,28 +27,28 @@ export default function Menu() {
          <Link to="/" style={{textDecoration:'none'}}>
          <li className='list'> 
           <FiUser style={icons} />
-          The Profile
+          <span className='text-navLinks'>Profile</span>
         </li>
       </Link>
        
       <Link to="/Experience" style={{textDecoration:'none'}}>
       <li  className='list' >
           <IoBriefcaseOutline style={icons} />
-          The Experience
+          <span className='text-navLinks'>Experience</span>
         </li>
       </Link>
 
       <Link to="/Project" style={{textDecoration:'none'}}>
       <li  className='list'>
           <LuPencilRuler style={icons} />
-          The Projects
+          <span className='text-navLinks'>Projects</span>
         </li>
       </Link>
 
       <Link to="/CaseStudies" style={{textDecoration:'none'}}>
       <li  className='list'>
           <PiListMagnifyingGlass style={icons} />
-          Case studies
+          <span className='text-navLinks'>Case studies</span>
         </li>
       </Link>
       </ul>

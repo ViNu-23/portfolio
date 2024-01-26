@@ -37,9 +37,6 @@
     font-family: Roboto, sans-serif;
     color: RGBA(0, 0, 0, 0.70);
 }
-.profile-container{
-    /* margin-left: 150px; */
-}
 @media screen and (max-width: 768px) {
 .project-container {
     flex-direction: column-reverse;
@@ -67,10 +64,10 @@
   width: 23px;
   transition: color 0.3s ease;
 }
-@media screen and (max-width: 850px) {
-/* .menu-item{
+@media screen and (max-width: 730px) {
+.text-navLinks{
   display: none;
-} */
+}
 }
 .cv-button{
   transition: color 0.3s ease;
