@@ -23,7 +23,7 @@ export default function Experience() {
       company: 'Triad Square InfoSec',
       position: 'UI/UX Designer',
       duration: '2015 - 2017',
-      awards: ['Best Support Award', 'Excellence Award'],
+      awards: ['Best Support Award, Excellence Award'],
     },
     {
       company: 'IdeaFlask',
@@ -41,17 +41,17 @@ export default function Experience() {
   <>
     <div style={{ position: 'relative',padding:'25px'}}>
     <h2 className="title">Experience</h2>
-    <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-around' }}>
+    <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-around'}}>
       {experiences.map((experience, index) => (
-        <div key={index} style={{ flex: '0 0 48%', marginBottom: '40px', position: 'relative' }}>
-          <strong style={{ color: '#5a39a4',fontSize:'20px' }}>{experience.company}</strong>
+        <div key={index} style={{width:'40%' ,margin:'20px' }}>
+          <strong style={{ color: '#5a39a4',fontSize:'25px' }}>{experience.company}</strong>
           <br />
           {experience.position}
           <br />
           {experience.duration}
           {experience.awards && (
            <div style={{ display: 'flex', alignItems: 'center' }}>
-           <FaAward style={{ color: '#5a39a4',height:'20px',width:'20px',marginRight:'5px' }} />
+           <FaAward style={{ color: '#5a39a4',minHeight:'20px',minWidth:'20px',marginRight:'5px' }} />
            {experience.awards.map((award, i) => (
              <span key={i}>{award} </span>
            ))}

@@ -13,10 +13,10 @@ export default function Home() {
           justifyContent: 'space-between'
         }}
       >
-        <div
+        <div className='content-info'
           style={{
-            margin: '110px 0px',
-            width: '100%'
+            width: '100%',
+           marginTop:'12% '
           }}
         >
           <div style={{ fontWeight: 'bold' }}>Hi, I am Sourabh D. Kulkarni</div>
