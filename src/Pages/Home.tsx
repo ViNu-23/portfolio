@@ -4,12 +4,11 @@ export default function Home() {
   return (
     <>
       <SocialLinks />
-      <div
+      <div className='moreRespo'
         style={{
           display: 'flex',
           padding: '25px 0px 25px 25px',
           height: '60vh',
-          marginBottom: '150px',
           justifyContent: 'space-between'
         }}
       >
