@@ -15,7 +15,7 @@ export default function Home() {
         <div className='content-info'
           style={{
             width: '100%',
-           marginTop:'12% '
+            marginTop: '12% '
           }}
         >
           <div style={{ fontWeight: 'bold' }}>Hi, I am Sourabh D. Kulkarni</div>
@@ -37,14 +37,13 @@ export default function Home() {
             Websites, and Brand Identity.
           </div>
           <button className='cv-button'>
-          <a className='anchor' href='../Images/portfolio.pdf' download='Sourabh D.Kulkarni.pdf'>
-            Download My Portfolio
+            <a className='anchor' href='../Images/portfolio.pdf' download='Sourabh D.Kulkarni.pdf'>
+              Download My Portfolio
             </a>
           </button>
         </div>
         <div className='profile-container'><img src='../Images/Picture2.png' alt='profile-img' style={{ height: '555px' }} className='profile-img' /></div>
       </div>
-
       <div
         style={{
           position: 'fixed',

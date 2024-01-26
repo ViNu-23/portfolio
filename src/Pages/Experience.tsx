@@ -38,39 +38,38 @@ export default function Experience() {
   ];
 
   return (
-  <>
-    <div style={{ position: 'relative',padding:'25px'}}>
-    <h2 className="title">Experience</h2>
-    <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-around'}}>
-      {experiences.map((experience, index) => (
-        <div key={index} style={{width:'40%' ,margin:'20px' }}>
-          <strong style={{ color: '#5a39a4',fontSize:'25px' }}>{experience.company}</strong>
-          <br />
-          {experience.position}
-          <br />
-          {experience.duration}
-          {experience.awards && (
-           <div style={{ display: 'flex', alignItems: 'center' }}>
-           <FaAward style={{ color: '#5a39a4',minHeight:'20px',minWidth:'20px',marginRight:'5px' }} />
-           {experience.awards.map((award, i) => (
-             <span key={i}>{award} </span>
-           ))}
-         </div>
-          )}
+    <>
+      <div style={{ position: 'relative', padding: '25px' }}>
+        <h2 className="title">Experience</h2>
+        <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-around' }}>
+          {experiences.map((experience, index) => (
+            <div key={index} style={{ width: '40%', margin: '20px' }}>
+              <strong style={{ color: '#5a39a4', fontSize: '25px' }}>{experience.company}</strong>
+              <br />
+              {experience.position}
+              <br />
+              {experience.duration}
+              {experience.awards && (
+                <div style={{ display: 'flex', alignItems: 'center' }}>
+                  <FaAward style={{ color: '#5a39a4', minHeight: '20px', minWidth: '20px', marginRight: '5px' }} />
+                  {experience.awards.map((award, i) => (
+                    <span key={i}>{award} </span>
+                  ))}
+                </div>
+              )}
+            </div>
+          ))}
         </div>
-      ))}
-    </div>
-
-  </div>
+      </div>
       <div
-      style={{
-        position: 'fixed',
-        bottom: 0,
-        width: '100%',
-      }}
-    >
-      <Menu />
-    </div>
+        style={{
+          position: 'fixed',
+          bottom: 0,
+          width: '100%',
+        }}
+      >
+        <Menu />
+      </div>
     </>
   );
 }
