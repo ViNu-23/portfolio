@@ -68,7 +68,7 @@
   width: 23px;
   transition: color 0.3s ease;
 }
-@media screen and (max-width: 730px) {
+@media screen and (max-width: 742px) {
   .text-navLinks {
     display: none;
   }

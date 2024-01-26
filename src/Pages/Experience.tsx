@@ -41,9 +41,9 @@ export default function Experience() {
     <>
       <div style={{ position: 'relative', padding: '25px' }}>
         <h2 className="title">Experience</h2>
-        <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-around' }}>
+        <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between' }}>
           {experiences.map((experience, index) => (
-            <div key={index} style={{ width: '40%', margin: '20px' }}>
+            <div key={index} style={{ minWidth: '39%', margin: '20px' }}>
               <strong style={{ color: '#5a39a4', fontSize: '25px' }}>{experience.company}</strong>
               <br />
               {experience.position}
